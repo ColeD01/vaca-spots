@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(96, 183, 183);
+}
+.nav-bar {
+  display: flex;
+  padding: 35px;
+  color: white;
+  background-color: black;
+
+}
+.nav-bar > h2 {
+  margin-right: auto;
+}
+.nav-bar > h3 {
+  margin-right: 20px;
+}
+.header{
+  height:700px;
+  background-image: url("https://images.unsplash.com/photo-1498464619740-386503e7e7f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1782&q=80");
+}
+.header > h1{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  margin-top: 100px;
+}
+.cards {
+max-width: fit-content;
+margin: auto;
+font-size: x-large;
+background-color: burlywood;
+border-radius: 20px;
+padding:0px 50px 0px 50px;
+}
+.break{
+  width: 50%;
+}
